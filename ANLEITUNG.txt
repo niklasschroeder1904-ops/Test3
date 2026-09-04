@@ -1,0 +1,60 @@
+ANATOMIA — OFFLINE-ANATOMIE-APP FÜRS IPHONE
+============================================
+Umfang: 20 Einheiten, 64 Lektionen, 481 anatomische Strukturen.
+Knochen, Muskeln, Arterien, Venen, Nerven, Gelenke, Organe, Sinnesorgane,
+Lymph- und Hormonsystem, Becken- und Fortpflanzungsorgane.
+
+DREI ANSICHTEN JE LEKTION
+1. Atlasbild (Standard): 153 echte, beschriftete Anatomie-Abbildungen in
+   hoher Auflösung. Antippen vergrößert.
+2. 3D echt: MRT-basierte 3D-Modelle mit einzeln benannten Knochen und
+   Muskeln. Die gerade gefragte Struktur leuchtet farbig auf, der Rest wird
+   transparent. Ziehen dreht das Modell. In 29 Lektionen verfügbar.
+3. Schema: eigene Zeichnung mit farbiger Markierung der gefragten Struktur —
+   als schnelle Orientierung, in jeder Lektion vorhanden.
+
+NAVIGATION
+Alle Einheiten und Lektionen sind frei wählbar. Die Symbolleiste oben springt
+direkt zu einer Einheit, ein Tipp auf den Einheiten-Kopf klappt sie ein oder aus.
+Auch die Einheiten-Tests lassen sich jederzeit starten.
+
+DATEIEN
+6 einzelne Dateien: index.html, sw.js, manifest.webmanifest,
+icon-180.png, icon-512.png, ANLEITUNG.txt
+3 Ordner: plates1 (71 Bilder), plates2 (70 Bilder), models (28 3D-Modelle)
+Alles zusammen hochladen, Ordnernamen nicht ändern.
+
+SCHRITT 1 — EINMAL INS NETZ STELLEN (kostenlos, ca. 5 Minuten)
+iOS installiert Web-Apps nur von einer https-Adresse, nicht aus einer Datei.
+1. Konto auf github.com anlegen.
+2. "+" -> "New repository" -> Name z. B. "anatomia" -> Public -> Create.
+3. "uploading an existing file" anklicken. GitHub nimmt hoechstens 100 Dateien
+   pro Vorgang, deshalb in vier Schritten hochladen und jedes Mal unten
+   "Commit changes" druecken:
+   a) die 6 einzelnen Dateien
+   b) den Ordner models
+   c) den Ordner plates1
+   d) den Ordner plates2
+4. Settings -> Pages -> Branch "main", Ordner "/ (root)" -> Save.
+5. Nach etwa einer Minute steht die Adresse: https://DEINNAME.github.io/anatomia/
+Alternative: netlify.com -> "Deploy manually" -> entpackten Ordner hineinziehen.
+
+SCHRITT 2 — AUF DEM IPHONE INSTALLIEREN
+1. Adresse in SAFARI öffnen (einmal mit Internet).
+2. Teilen-Symbol -> "Zum Home-Bildschirm" -> Hinzufügen.
+3. Beim ersten Start etwa fünf Minuten im WLAN geöffnet lassen: die App lädt
+   Bilder und 3D-Modelle in den Offline-Speicher (rund 34 MB).
+4. Danach läuft alles im Flugmodus, Vollbild ohne Safari-Leiste.
+
+FORTSCHRITT
+XP, Sterne und Testergebnisse liegen lokal auf dem iPhone. Sie gehen verloren,
+wenn die App vom Home-Bildschirm gelöscht oder in den iOS-Einstellungen die
+Safari-Websitedaten geleert werden. Ein Cloud-Backup gibt es nicht.
+
+BILDNACHWEIS
+Farbige Abbildungen: OpenStax College, "Anatomy & Physiology" (2013),
+Creative Commons Attribution (CC BY), openstax.org
+Historische Tafeln: Henry Gray, "Anatomy of the Human Body" (1918), gemeinfrei.
+3D-Modelle: BodyParts3D (Datenbankzentrum für Life Science, CC BY-SA 2.1 JP)
+und Z-Anatomy (CC BY-SA), aufbereitet über das Projekt BodyExplorer.
+Schemazeichnungen sind eigene Darstellungen.
